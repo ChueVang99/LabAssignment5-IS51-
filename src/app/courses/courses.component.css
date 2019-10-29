@@ -1,0 +1,30 @@
+.main-container-grid {
+    display: grid;
+    background-color: #32b167;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-template-rows: 1fr .6fr 2fr;
+    height: 100%;
+}
+
+.table-one {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.table-one > tbody > tr > td {
+    border: 1px solid #ccc;
+    min-height: 50px;
+    padding: .5em;
+}
+
+.add-button {
+    font-size: bold;
+}
+
+.pull-right {
+    float:right;
+}
+
+.main-outlet {
+    display: none;
+}

@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fffe00
+}
+
+.container-padding {
+    margin: 15px;
+    border: 1px dashed #0044ff;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

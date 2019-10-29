@@ -1,0 +1,9 @@
+.toolbar {
+    display: grid;
+    grid-template-columns: 1fr 5.4fr 1fr;
+    height: 100%;
+}
+.nav-button {
+    margin-right: 10px;
+}
+
